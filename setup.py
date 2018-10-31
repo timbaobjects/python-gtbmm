@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='python-gtbmm',
-    version='0.1',
+    version='0.1.1',
     packages=['gtbmm'],
     author="Tim Akinbo",
     author_email="takinbo@timbaobjects.com",
@@ -13,6 +13,6 @@ setup(
     install_requires=[
         "lxml>=3.3.5",
         "pytest>=2.6.0",
-        "requests>=2.3.0"
+        "requests>=2.20.0"
     ],
 )
